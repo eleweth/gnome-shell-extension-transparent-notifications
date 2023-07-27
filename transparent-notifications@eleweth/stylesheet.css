@@ -1,0 +1,24 @@
+/* forked from github.com/ipaq3870/gsext-transparent-notification and modified by eleweth on 2023-07-27,
+restoring compatibility with the current Gnome Shell version and introducing additional functionality */
+
+/*** use this rule for custom values ***/
+.customStyle {
+	background-color: rgba(0,0,0,0.69);
+}
+/***************************************/
+
+.zeroPercent {
+	background-color: rgba(63,63,63,0);
+}
+
+.twentyFivePercent {
+	background-color: rgba(63,63,63,0.25);
+}
+
+.fiftyPercent {
+	background-color: rgba(63,63,63,0.50);
+}
+
+.seventyFivePercent {
+	background-color: rgba(63,63,63,0.75);
+}

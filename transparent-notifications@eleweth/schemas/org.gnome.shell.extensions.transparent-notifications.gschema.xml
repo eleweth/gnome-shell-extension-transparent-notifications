@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="gnome-shell-extensions-transparent-notifications">
+	<schema id="org.gnome.shell.extensions.transparent-notifications" path="/org/gnome/shell/extensions/transparent-notifications/">
+		<key name="opacity-level" type="i">
+			<default>75</default>
+		</key>
+		<key name="use-custom-value" type="b">
+			<default>false</default>
+		</key>
+	</schema>
+</schemalist>
