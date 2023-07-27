@@ -1,4 +1,6 @@
-# gsext-transparent-notification
-Gnome shell extension to add transparency to notifications
+# gnome-shell-extension-transparent-notifications
+Forked from gsext-transparent-notification
 
-![Screenshot](https://raw.githubusercontent.com/ipaq3870/gsext-transparent-notification/master/screen.png "Screenshot")
+Compatible with modern (43+) versions of GNOME Shell, notification background was changed to match the default theme, there is now an extension settings menu for choosing levels of transparency
+
+![Screenshot](https://raw.githubusercontent.com/eleweth/gnome-shell-extension-transparent-notifications/master/screenshot.png "Screenshot")
