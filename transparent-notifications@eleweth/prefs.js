@@ -98,7 +98,7 @@ function fillPreferencesWindow(window) {
 	settingsPage.add(messageBox);
 
 		const messageRow = new Gtk.Label();
-		messageRow.set_label('After every change, a restart of Gnome Shell is required.\nTo do that on X.Org you can press "Alt+F2", then type "r" and press Enter.\nOn Wayland you will have to log out or reboot.');
+		messageRow.set_label('After every change, a restart of GNOME Shell is required.\nTo do that on X.Org you can press "Alt+F2", then type "r" and press Enter.\nOn Wayland you will have to log out or reboot.');
 		messageRow.set_justify(Gtk.Justification.CENTER);
 		messageBox.add(messageRow);
 }
