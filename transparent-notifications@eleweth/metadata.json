@@ -1,5 +1,5 @@
 {
-	"description": "Adds customizable level of transparency to notifications in Gnome Shell",
+	"description": "Adds customizable level of transparency to notifications in GNOME Shell",
 	"name": "Transparent Notifications",
 	"shell-version": ["43","44","44.1","44.2","44.3"],
 	"url": "https://github.com/eleweth/gnome-shell-extension-transparent-notifications",
