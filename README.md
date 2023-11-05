@@ -1,8 +1,13 @@
 # gnome-shell-extension-transparent-notifications
 
-Compatible with modern (43+) versions of GNOME Shell, notification background was changed to match the default theme, there is now an extension settings menu for choosing levels of transparency
+Compatible with modern version of GNOME Shell, notification background was changed to match the default theme, there is now an extension settings menu for choosing levels of transparency.
 
 ![Screenshot](screenshot.png "Screenshot")
+![Screenshot](screenshot2.png "Screenshot 2")
+
+# Compatibility notice
+
+The release for GNOME 45 is not backward compatible with older versions of the shell.
 
 # Installation
 
