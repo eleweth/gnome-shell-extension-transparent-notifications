@@ -1,14 +1,17 @@
-const {Adw,Gio,GObject,Gtk} = imports.gi;
-const ExtensionUtils = imports.misc.extensionUtils;
+import Adw from 'gi://Adw';
+import Gio from 'gi://Gio';
+import Gtk from 'gi://Gtk';
+
+import {ExtensionPreferences} from 'resource:///org/gnome/Shell/Extensions/js/extensions/prefs.js';
 
 const OPACITY_LEVEL = 'opacity-level';
 const USE_CUSTOM = 'use-custom-value';
 
-let settings = ExtensionUtils.getSettings("org.gnome.shell.extensions.transparent-notifications");
+export default class TransparentNotificationsPreferences extends ExtensionPreferences {
+fillPreferencesWindow(window) {
+	const extension = ExtensionPreferences.lookupByUUID('transparent-notifications@eleweth');
+	let settings = extension.getSettings("org.gnome.shell.extensions.transparent-notifications");
 
-function init() {}
-
-function fillPreferencesWindow(window) {
 	const settingsPage = new Adw.PreferencesPage();
 	window.add(settingsPage);
 
@@ -101,4 +104,5 @@ function fillPreferencesWindow(window) {
 		messageRow.set_label('After every change, a restart of GNOME Shell is required.\nTo do that on X.Org you can press "Alt+F2", then type "r" and press Enter.\nOn Wayland you will have to log out or reboot.');
 		messageRow.set_justify(Gtk.Justification.CENTER);
 		messageBox.add(messageRow);
+}
 }
